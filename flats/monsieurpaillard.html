@@ -7,16 +7,16 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-65efdd3b.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-65efdd3b.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo">
+    <img src="images/logo.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -25,7 +25,7 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
-    <li><a href="team.html" class="navbar-wagon-item navbar-wagon-link">Meet the team</a></li>
+    <li><a href="../team.html" class="navbar-wagon-item navbar-wagon-link">Meet the team</a></li>
 
 
     <!-- Profile picture with dropdown list -->
@@ -35,7 +35,7 @@
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
-          <li><a href="team.html" class="btn btn-primary">Meet the team</a></li>
+          <li><a href="../team.html" class="btn btn-primary">Meet the team</a></li>
           <li><a href="#">Log Out</a></li>
 
         </ul>
@@ -51,7 +51,7 @@
         <li><a href="#">Host</a></li>
         <li><a href="#">Trips</a></li>
         <li><a href="#">Messagese</a></li>
-        <li><a href="team.html" class="btn btn-primary">Meet the team</a></li>
+        <li><a href="../team.html" class="btn btn-primary">Meet the team</a></li>
       </ul>
     </div>
   </div>
@@ -63,23 +63,15 @@
 
 
 
-    
+    <!-- source/flats/show.html.erb -->
 
+<!-- Access data.flats with owner's name as key -->
 
-<ul class="list-inline text-center">
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="avatar" alt="Papillard" />
-      <h3>Papillard</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar" alt="Ssaunier" />
-      <h3>Ssaunier</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="avatar" alt="Monsieurpaillard" />
-      <h3>Monsieurpaillard</h3>
-    </li>
-</ul>
+<!-- Inject flat data in template -->
+<img src="https://kitt.lewagon.com/placeholder/users/&lt;div id=&gt;&lt;/div&gt;{owner}" class="img-circle avatar" alt="Div&gt;{owner}" />
+<p>Romain's home</p>
+<h1>Nice flat in Piccadilly</h1>
+<p>London, UK</p>
 
     
 
